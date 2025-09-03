@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Unbounded:wght@200..900&display=swap');
+
+h1 {
+    font-family: "Unbounded";
+}
+
+h2 {
+    font-family: "Unbounded";
+
+}
+
+h3 {
+    font-family: "Unbounded";
+}
+
+p {
+    font-family: "DM Sans"
+}
+
+div {
+    font-family: "DM Sans"
+}
+
+body {
+    background-color: #f0e68c;
+}
+
+.description-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.description-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.description-image {
+    flex-shrink: 0;
+    width: 300px;
+    height: 200px;
+    background-color: #E1F5FE;
+    border-radius: 10px;
+    border: 2px solid #0288D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0277BD;
+    font-size: 14px;
+}
+
+.description-content {
+    flex: 1;
+}
+
+.description-title {
+    color: #0277BD;
+    font-size: 32px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.description-text {
+    color: #01579B;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.description-details {
+    background-color: #F3E5F5;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #9C27B0;
+}
+
+.description-details h3 {
+    color: #7B1FA2;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.description-details p {
+    color: #8E24AA;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.action-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+.website-links {
+    background-color: transparent;
+    color: #9C27B0;
+    padding: 12px 24px;
+    border: 2px solid #9C27B0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button {
+    background-color: #90ee90;
+    color: #32cd32;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #29B6F6;
+    color:#0288D1;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.action-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
